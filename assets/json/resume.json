@@ -37,8 +37,26 @@
       "institution": "The University of British Columbia, Vancouver, Canada",
       "location": "Vancouver, BC, Canada",
       "area": "Cognitive Systems",
+      "studyType": "BA",
       "startDate": "2008-08-15",
-      "endDate": "2012-11-01"
+      "endDate": "2013-11-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Provost Fund",
+      "date": "2017",
+      "awarder": "University of Minnesota"
+    },
+    {
+      "title": "College of Education and Human Development Graduate Student Fellowship",
+      "date": "2017",
+      "awarder": "University of Minnesota"
+    },
+    {
+      "title": "National Research Fellowship",
+      "date": "2017",
+      "awarder": "Korea Student Aid Foundation"
     }
   ]
 }
