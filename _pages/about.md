@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: _Per aspera ad astra_
+subtitle: <i>Per aspera ad astra</i>
 
 profile:
   align: right
