@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: *Per aspera ad astra*
+subtitle: _Per aspera ad astra_
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: CHLA-Jinseok-OH 2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>101C Smith Tower</p>
