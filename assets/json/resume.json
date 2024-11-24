@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jinseok Oh",
-    "label": "Postdoctoral Research Fellow",
+    "label": "Postdoctoral Research Fellow at Children's Hospital Los Angeles",
     "image": "",
     "email": "jinseok.oh@protonmail.ch",
     "phone": "(323) 361-8452",
@@ -14,5 +14,31 @@
       "countryCode": "US",
       "region": "California"
     }
-  }
+  },
+  "education": [
+    {
+      "institution": "University of Minnesota, Minneapolis, U.S.",
+      "location": "Minneapolis, MN",
+      "area": "Biomechanics and neuromotor control",
+      "studyType": "PhD",
+      "startDate": "2017-09-02",
+      "endDate": "2022-08-31",
+      "summary": "Thesis: Assessment of human finger position sense and the effect of vibro-tactile stimulation on proprioceptive acuity"
+    },
+    {
+      "institution": "Seoul National University, Seoul, South Korea",
+      "location": "Seoul, South Korea",
+      "area": "Cognitive Science",
+      "studyType": "MA",
+      "startDate": "2015-03-01",
+      "endDate": "2017-08-31"
+    },
+    {
+      "institution": "The University of British Columbia, Vancouver, Canada",
+      "location": "Vancouver, BC, Canada",
+      "area": "Cognitive Systems",
+      "startDate": "2008-08-15",
+      "endDate": "2012-11-01"
+    }
+  ]
 }
