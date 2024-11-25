@@ -28,8 +28,8 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: material-palenight # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: ocean_dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -245,6 +245,10 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/repositories.md
   - purgecss.config.js
   - README.md
   - readme_preview/
