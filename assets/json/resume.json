@@ -72,15 +72,6 @@
         "Signal Processing",
         "Machine Learning"
       ]
-    },
-    {
-      "name": "R",
-      "level": "Intermediate",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Data Visualization",
-        "Time Series Data Modeling"
-      ]
     }
   ]
 }
