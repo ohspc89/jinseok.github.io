@@ -19,6 +19,7 @@
     {
       "institution": "University of Minnesota, Minneapolis, U.S.",
       "location": "Minneapolis, MN",
+      "url": "none",
       "area": "Biomechanics and neuromotor control",
       "studyType": "PhD",
       "startDate": "2017-09-02",
@@ -63,12 +64,12 @@
     {
       "name": "Python",
       "level": "Intermediate",
-      "icon": "python-logo-only.png",
+      "icon": "fa-brands fa-python",
       "keywords": [
         "Data Visualization",
-        "Work automatization",
-        "Graphic User Interface development (PyQt)",
-        "Android mobile application development (Kivy)",
+        "Work Automatization",
+        "Graphic User Interface Development (PyQt)",
+        "Android Mobile Application Development (Kivy)",
         "Signal Processing",
         "Machine Learning"
       ]
@@ -76,7 +77,12 @@
     {
       "name": "R",
       "level": "Intermediate",
-      "icon": "Rlogo.png"
+      "icon": "fa-brands fa-r-project",
+      "keywords": [
+        "Data Visualization",
+        "Statistical Analysis",
+        "Time-series Data Modeling"
+      ]
     }
   ]
 }
