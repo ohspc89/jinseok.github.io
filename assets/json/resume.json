@@ -63,7 +63,7 @@
     {
       "name": "Python",
       "level": "Intermediate",
-      "icon": "fa-solid fa-tag",
+      "icon": "python-logo-only.png",
       "keywords": [
         "Data Visualization",
         "Work automatization",
@@ -72,6 +72,11 @@
         "Signal Processing",
         "Machine Learning"
       ]
+    },
+    {
+      "name": "R",
+      "level": "Intermediate",
+      "icon": "Rlogo.png"
     }
   ]
 }
