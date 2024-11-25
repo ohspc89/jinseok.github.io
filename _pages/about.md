@@ -6,7 +6,7 @@ subtitle: <i>Per aspera ad astra</i>
 
 profile:
   align: right
-  image: CHLA-Jinseok-OH2.png
+  image: OH_CROPPED.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>101C Smith Tower</p>
