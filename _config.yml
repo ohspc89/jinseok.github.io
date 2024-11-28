@@ -194,7 +194,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /:collection/:title/
   projects:
     output: true
@@ -248,8 +248,9 @@ exclude:
   - _pages/blog.md
   - _pages/dropdown.md
   - _pages/news.md
-  - _pages/repositories.md
-  - _pages/people
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/projects.md
   - purgecss.config.js
   - README.md
   - readme_preview/
