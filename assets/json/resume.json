@@ -61,7 +61,6 @@
   "skills": [
     {
       "name": "Python",
-      "level": "Intermediate",
       "icon": "fa-brands fa-python",
       "keywords": [
         "Data Visualization",
@@ -74,7 +73,6 @@
     },
     {
       "name": "R",
-      "level": "Intermediate",
       "icon": "fa-brands fa-r-project",
       "keywords": [
         "Data Visualization",
