@@ -74,11 +74,7 @@
     {
       "name": "R",
       "icon": "fa-brands fa-r-project",
-      "keywords": [
-        "Data Visualization",
-        "Statistical Analysis",
-        "Time-series Data Modeling"
-      ]
+      "keywords": ["Data Visualization", "Statistical Analysis", "Time-series Data Modeling"]
     }
   ]
 }
