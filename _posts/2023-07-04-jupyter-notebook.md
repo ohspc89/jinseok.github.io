@@ -1,39 +1,40 @@
 ---
 layout: post
 title: a post with jupyter notebook
-date: 2023-07-04 08:57:00-0400
-description: an example of a blog post with jupyter notebook
-tags: formatting jupyter
-categories: sample-posts
-giscus_comments: true
+date: 2025-01-03 20:57:00-0700
+description: jupyter notebooks, reading numbers
+tags: OCR
+categories: python-tricks
+giscus_comments: false
 related_posts: false
 ---
 
-To include a jupyter notebook in a post, you can use the following code:
+I am recently preparing a manuscript that describes the leg movement characteristics of infants who participated in the HBCD study.
+One characteristic is the movement rate per hour awake. We obtained this measure from both legs, and I wanted to demonstrate that the measure was significantly correlated between legs. Thus I calculated a correlation coefficient of the two samples: [left leg movement rate] and [right leg movement rate].
 
-{% raw %}
+To demonstrate that our finding is comparable to previous findings from small sample studies, I searched for [Smith et al. (2015)](https://doi.org/10.3390/s150819006), the very first paper on infant leg movement rates measured with wearable sensors.
 
-```liquid
+Ah, but the authors did not _calculate_ the correlation coefficient. They reported raw values in Table 2:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Selection_064.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Movement rates at the right-most columns of the table
+</div>
+
+This may also be the case for other researchers; they find data published in articles and want to do _something_ with the reported numbers. If diligent and meticulous, they will open Excel, type in numbers one by one, and then move to the next step.
+
+In the era of ChatGPT, they can ask it to read the numbers from the publicly accessible pdf file and perform necessary statistical tests. Luckily, [Smith et al. (2015)] is published in [MDPI Sensors], an Open Access Journal.
+
+I chose the third option - make it another reason to improve my Python skills and write a script that helps me read numbers in a screenshot I prepare.
+
+I used [shutter](https://shutter-project.org) to screen capture the visual I see from my LG 29WN600-W 29-inch monitor.
+
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/blog.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
-  {% jupyter_notebook jupyter_path %}
-{% else %}
-  <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
-```
-
-{% endraw %}
-
-Let's break it down: this is possible thanks to [Jekyll Jupyter Notebook plugin](https://github.com/red-data-tools/jekyll-jupyter-notebook) that allows you to embed jupyter notebooks in your posts. It basically calls [`jupyter nbconvert --to html`](https://nbconvert.readthedocs.io/en/latest/usage.html#convert-html) to convert the notebook to an html page and then includes it in the post. Since [Kramdown](https://jekyllrb.com/docs/configuration/markdown/) is the default Markdown renderer for Jekyll, we need to surround the call to the plugin with the [::nomarkdown](https://kramdown.gettalong.org/syntax.html#extensions) tag so that it stops processing this part with Kramdown and outputs the content as-is.
-
-The plugin takes as input the path to the notebook, but it assumes the file exists. If you want to check if the file exists before calling the plugin, you can use the `file_exists` filter. This avoids getting a 404 error from the plugin and ending up displaying the main page inside of it instead. If the file does not exist, you can output a message to the user. The code displayed above outputs the following:
-
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/Test_ocr.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/Test_ocr.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
 {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -41,5 +42,3 @@ The plugin takes as input the path to the notebook, but it assumes the file exis
 <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
-
-Note that the jupyter notebook supports both light and dark themes.
