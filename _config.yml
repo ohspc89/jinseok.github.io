@@ -134,8 +134,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Another metric system user # blog_name will be displayed in your blog page
-blog_description: My life as a immigrant with Ph.D. in Kinesiology
+blog_name: A pseudo coder # blog_name will be displayed in your blog page
+blog_description: Introducing Python tricks I found useful
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -245,7 +245,6 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
-  - _pages/blog.md
   - _pages/dropdown.md
   - _pages/repositories.md
   - _pages/news.md
