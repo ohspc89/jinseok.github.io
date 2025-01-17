@@ -6,8 +6,8 @@ subtitle: <i>Per aspera ad astra</i>
 
 profile:
   align: right
-  image: oie_oie_trim_image.png
-  image_circular: false # crops the image to make it circular
+  image: jin_pic2.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>101C Smith Tower</p>
     <p>4650 West Sunset Blvd.</p>
