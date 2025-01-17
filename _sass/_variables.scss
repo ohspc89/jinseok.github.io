@@ -32,9 +32,12 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Colors - custom
+$kaitoke-color: #004830
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($kaitoke-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
