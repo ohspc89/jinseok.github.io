@@ -134,8 +134,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: A pseudo coder # blog_name will be displayed in your blog page
-blog_description: Introducing Python tricks I found useful
+blog_name: Research notes # blog_name will be displayed in your blog page
+blog_description: Soon to-be-organized notes
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -313,8 +313,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["OCR", "PDF"] # these tags will be displayed on the front page of your blog
-display_categories: ["python-tricks"] # these categories will be displayed on the front page of your blog
+display_tags: ["OCR", "PDF", "entropy"] # these tags will be displayed on the front page of your blog
+display_categories: ["python-tricks", "research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
